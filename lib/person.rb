@@ -22,4 +22,5 @@ class Person
   end
 end
 
-Person.new = ("Beyonce", "singer")
+beyonce = Person.new 
+= ("Beyonce", "singer")
