@@ -1,18 +1,16 @@
 # person.rb
 class Person 
   def initialize(name, job)
-    @name
-    @job
+    @name = name
+    @job = job
   end
   
   def name
-    @name = name
-    puts name
+    @name 
   end
   
   def job
-    @job = job
-    puts job
+    @job 
   end
   
   def name= (new_name)
