@@ -23,8 +23,8 @@ class Dog
   end
 end
 
-fido = Dog.new
-fido.name = "Fido"
+fido = Dog.new("Fido", "Beagle")
+fido.name = "Frank"
 
 
 puts fido.name
