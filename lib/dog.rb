@@ -24,11 +24,11 @@ class Dog
   end
 end
 
-# fido = Dog.new 
-# fido.name = "Fido"
+fido = Dog.new 
+fido.name = "Fido"
 
 
-# puts fido.name
+puts fido.name
 
 # lassie = Dog.new 
 # lassie.name = "Lassie"
