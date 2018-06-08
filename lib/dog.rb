@@ -6,13 +6,11 @@ class Dog
   end
   
   def name
-    @name = name
-    puts name
+    @name
   end
   
   def breed 
-    @breed = breed
-    puts breed
+    @breed
   end
   
   def name= (new_name)
@@ -24,8 +22,7 @@ class Dog
   end
 end
 
-fido = Dog.new 
-fido.name = "Fido"
+fido = Dog.new("Fido", "Beagle") 
 
 
 puts fido.name
